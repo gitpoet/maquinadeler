@@ -1,0 +1,58 @@
+
+header{
+	padding: 20px 0;
+	text-align: left;
+
+}
+
+h2{
+	padding: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.titulo-principal{
+		text-align: left;
+		padding-left: 20px;
+		font-size: 36px;
+		font-style: bold;
+		color: orange;
+}
+
+.imagem-cortada{
+	width: 100%
+}
+
+nav li{
+	display: inline-block;
+	margin: 0 0 0 250px;
+
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+
+.divisao{
+	text-align: center;
+	background: orange;
+	padding: 30px 60px;
+}
+
+
+footer{
+	text-align: center;
+	font-size: 18px;
+	background:  #FFFFFF;
+	padding: 20px 0;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width">
+	<title>CONTATO</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="./assets/css/portifolio.css">
+	<link rel="stylesheet" href="./assets/css/flexbox.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header class="cabecalho">
+			<img src="./assets/img/Logo-Máquina-de-Ler-removebg-preview.png" alt="Logo da editora">
+
+					<nav class="cabacalho-nav">
+						<ul>
+						
+							<li class="cabecalho-link"><a href="index.html">Home</a></li>
+							<li class="cabecalho-link"><a href="portifolio.html">Portifólio</a></li>
+							<li class="cabecalho-link"><a href="maquina-contato.html">Contato</a></li>
+						</ul>
+						
+					</nav>
+	</header>
+	
+			<main class=margemformulario>
+				
+				<form>
+					<label for="nomesobrenome">Nome e Sobrenome</label>
+					<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+					<label for="telefone">Telefone</label>
+					<input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+
+					<label for="email">Email</label>
+					<input type="email" id="email" id="mensagem" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+					<label for="mensagem">Mensagem</label>
+					<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+					<fieldset>
+						<legend>Como prefere o nosso contato?</legend>
+						<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+						
+
+						<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+					
+
+						<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+						
+					</fieldset>
+
+
+					<fieldset>
+						<legend>Em qual horário prefere ser atendido?</legend>
+						<select>
+							<option>Manhã</option>
+							<option>Tarde</option>
+							<option>Noite</option>
+						</select>
+					</fieldset>
+
+					<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+
+					<input type="submit" value="Enviar Formulário" class="enviar">
+
+				</form>
+
+			</main>
+
+		<footer class="rodape">
+			<div class="container">
+			<img src="./assets/img/Logo-Máquina-de-Ler-branca-isolada-removebg-preview.png" alt="logo da editora">
+			<ul>
+				<li> Editora Máquina de Ler - CNPJ - 36.364.348/0001-05</li>
+				<li>ENDEREÇO: Rua Santa Isabel, 404 - Lagoa Redonda - Fortaleza - Ceará - Brasil</li>
+				<li>CONTATOS: WhatsApp (085) 996868216 - Email.: cjdantasoliveira@gmail.com</li>
+				<li>&copy; Copyright Editora Máquina de ler 2020</li>
+			</ul>
+			</d>
+		</footer>
+
+</body>
+</html>
